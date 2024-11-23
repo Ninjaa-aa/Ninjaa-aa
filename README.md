@@ -25,23 +25,29 @@
 <div align="left">
   <img align="right" width="38%" src="https://raw.githubusercontent.com/Ninjaa-aa/Ninjaa-aa/main/assets/coding.gif" alt="Coding Animation"/>
 
-  ### 👨‍💻 Professional Journey
-  Currently pursuing my BS in Software Engineering at **FAST NUCES** while working as a Full Stack Intern at **Credo Technology Services**. My journey in tech is driven by a passion for building scalable, innovative solutions that make a difference.
+  ### 👨‍💻 Professional Background
+  I am a Full Stack Software Engineer with a strong foundation in modern web technologies and distributed systems. Currently pursuing my Bachelor's in Software Engineering at **FAST NUCES** while gaining hands-on industry experience as a Full Stack Intern at **Credo Technology Services**.
 
-  ### 🛠️ Technical Expertise
-  - **Frontend**: Mastery in Next.js, React, Angular with Tailwind CSS
-  - **Backend**: Proficient in Node.js, Express, NestJS, Spring Boot
-  - **Database**: Experience with MongoDB, PostgreSQL, Redis
-  - **Cloud & DevOps**: AWS, Firebase, Docker, Microservices
+  ### 🛠️ Core Competencies
+  - **Application Architecture**: Expertise in designing scalable applications using microservices and cloud-native approaches
+  - **Frontend Development**: Advanced proficiency in React.js, Next.js, and Angular, specializing in building responsive and performant user interfaces
+  - **Backend Engineering**: Strong command of Node.js ecosystem and Spring Boot, with focus on RESTful APIs and microservices
+  - **Database Management**: Extensive experience with both SQL (PostgreSQL) and NoSQL (MongoDB, Redis) databases
+  - **DevOps & Cloud**: Proficient in AWS services, Docker containerization, and CI/CD pipelines
 
-  ### 🎯 Current Focus
-  - Architecting scalable microservices
-  - Building AI-integrated applications
-  - Exploring cloud-native solutions
-  - Mastering system design patterns
+  ### 🎯 Professional Focus
+  - Architecting cloud-native applications with emphasis on scalability and reliability
+  - Implementing AI/ML solutions to enhance application intelligence
+  - Developing secure and performant microservices architectures
+  - Contributing to open-source projects in the JavaScript/TypeScript ecosystem
+  - Exploring emerging technologies in distributed systems and cloud computing
 
-  ### 💡 What Drives Me
-  Passionate about transforming complex problems into elegant solutions. I thrive on learning new technologies and applying them to create innovative, user-centric applications.
+  ### 💡 Areas of Impact
+  Dedicated to developing innovative solutions that address real-world challenges. Particularly interested in:
+  - Building scalable enterprise applications
+  - Implementing AI-driven features
+  - Optimizing system performance
+  - Creating intuitive user experiences
 </div>
 
 <br clear="right"/>
@@ -138,7 +144,7 @@
   <a href="mailto:hammadzahid254@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=00FFB3" />
   </a>
-  <a href="https://www.linkedin.com/in/hammadzahid" target="_blank">
+  <a href="https://www.linkedin.com/in/hammad-zahid-61b502241/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FFB3" />
   </a>
   <a href="https://github.com/Ninjaa-aa" target="_blank">
