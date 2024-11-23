@@ -25,37 +25,23 @@
 <div align="left">
   <img align="right" width="38%" src="https://raw.githubusercontent.com/Ninjaa-aa/Ninjaa-aa/main/assets/coding.gif" alt="Coding Animation"/>
 
-```typescript
-const hammadZahid = {
-  role: "Full Stack Software Engineer",
-  education: "BS Software Engineering @ FAST NUCES",
-  workingAs: "Full Stack Intern @ Credo Technology Services",
-  
-  skills: {
-    languages: ["TypeScript", "JavaScript", "Java", "Python"],
-    frontend: ["Next.js", "React", "Angular", "Tailwind"],
-    backend: ["Node.js", "Express", "NestJS", "Spring Boot"],
-    databases: ["MongoDB", "PostgreSQL", "Redis"],
-    cloud: ["AWS", "Firebase", "Docker", "Microservices"],
-  },
-  
-  currentFocus: {
-    learning: ["System Design", "Cloud Architecture"],
-    building: ["Scalable Applications", "AI-Integrated Solutions"],
-    exploring: ["Microservices", "Distributed Systems"],
-  },
-  
-  passion: "Building innovative solutions that scale"
-};
-```
+  ### 👨‍💻 Professional Journey
+  Currently pursuing my BS in Software Engineering at **FAST NUCES** while working as a Full Stack Intern at **Credo Technology Services**. My journey in tech is driven by a passion for building scalable, innovative solutions that make a difference.
 
-### 2024 Roadmap 🎯
-- 🚀 Mastering Microservices Architecture & Design Patterns
-- 🌐 Contributing to High-Impact Open Source Projects
-- ☁️ AWS Solutions Architect Certification
-- 🤖 Integrating AI/ML into Web Applications
-- 📚 Deepening Knowledge in Distributed Systems
+  ### 🛠️ Technical Expertise
+  - **Frontend**: Mastery in Next.js, React, Angular with Tailwind CSS
+  - **Backend**: Proficient in Node.js, Express, NestJS, Spring Boot
+  - **Database**: Experience with MongoDB, PostgreSQL, Redis
+  - **Cloud & DevOps**: AWS, Firebase, Docker, Microservices
 
+  ### 🎯 Current Focus
+  - Architecting scalable microservices
+  - Building AI-integrated applications
+  - Exploring cloud-native solutions
+  - Mastering system design patterns
+
+  ### 💡 What Drives Me
+  Passionate about transforming complex problems into elegant solutions. I thrive on learning new technologies and applying them to create innovative, user-centric applications.
 </div>
 
 <br clear="right"/>
@@ -86,11 +72,18 @@ const hammadZahid = {
         <a href="https://github.com/Ninjaa-aa/weather-app" target="_blank">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ninjaa-aa&repo=weather-app&theme=dark&bg_color=000000&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&hide_border=true" alt="Weather App"/>
         </a>
+        <br>
+        <h4>Key Features:</h4>
         <p>
-          <strong>HTML • Tailwind CSS • JavaScript</strong><br/>
-          Modern weather application integrating Weather API, Dialogflow & Gemini AI for intelligent weather insights.
-          <br/>
-          <a href="https://nexus-weather.web.app" target="_blank">Live Demo →</a>
+          • Real-time weather updates with interactive UI<br>
+          • AI-powered weather insights using Gemini<br>
+          • Natural language processing with Dialogflow<br>
+          • Responsive design with Tailwind CSS<br>
+          • Firebase hosting with real-time updates
+        </p>
+        <p>
+          <strong>Tech Stack: HTML • Tailwind CSS • JavaScript • Firebase</strong><br>
+          <a href="https://nexus-weather.web.app" target="_blank">🔗 Live Demo</a>
         </p>
       </div>
     </td>
@@ -100,15 +93,25 @@ const hammadZahid = {
         <a href="https://github.com/Ninjaa-aa/movie-recommendation-system" target="_blank">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ninjaa-aa&repo=movie-recommendation-system&theme=dark&bg_color=000000&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&hide_border=true" alt="Movie Backend"/>
         </a>
+        <br>
+        <h4>Key Features:</h4>
         <p>
-          <strong>Node.js • Express • MongoDB</strong><br/>
-          Robust movie backend with Google OAuth 2.0 authentication, advanced search, and recommendation engine.
+          • Secure authentication with Google OAuth 2.0<br>
+          • Advanced search with multiple filters<br>
+          • RESTful API architecture<br>
+          • Content-based recommendation engine<br>
+          • Scalable MongoDB database design
+        </p>
+        <p>
+          <strong>Tech Stack: Node.js • Express • MongoDB • OAuth 2.0</strong>
         </p>
       </div>
     </td>
   </tr>
 </table>
 </div>
+
+<br/>
 
 <h2>📊 Performance Analytics</h2>
 
