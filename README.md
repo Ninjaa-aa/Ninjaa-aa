@@ -133,13 +133,15 @@
 
 <div align="center">
   <a href="mailto:hammadzahid254@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Contact_Portal-000000?style=for-the-badge&logo=gmail&logoColor=00FFB3" />
+    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=00FFB3" />
   </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/hammad-zahid-61b502241/" target="_blank">
-    <img src="https://img.shields.io/badge/Professional_Network-000000?style=for-the-badge&logo=linkedin&logoColor=00FFB3" />
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FFB3" />
   </a>
+  &nbsp;
   <a href="https://github.com/Ninjaa-aa" target="_blank">
-    <img src="https://img.shields.io/badge/Code_Repository-000000?style=for-the-badge&logo=github&logoColor=00FFB3" />
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FFB3" />
   </a>
 </div>
 
