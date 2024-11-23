@@ -2,13 +2,20 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Hammad+Zahid+%F0%9F%91%8B;Full-Stack+Software+Engineer+%26+Problem+Solver+%F0%9F%92%BB;Building+the+Future%2C+One+Line+at+a+Time+%E2%9C%A8;Let's+Create+Something+Amazing+Together+%F0%9F%8C%9F" alt="Typing SVG" />
 </div>
 
-<h1 align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ninjaa-aa/Ninjaa-aa/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ninjaa-aa/Ninjaa-aa/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Ninjaa-aa/Ninjaa-aa/output/github-contribution-grid-snake.svg" />
-  </picture>
-</h1>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Ninjaa-aa/Ninjaa-aa/main/assets/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Ninjaa-aa/Ninjaa-aa/main/assets/github-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Ninjaa-aa&style=for-the-badge&color=blueviolet" alt="Profile Views" />
