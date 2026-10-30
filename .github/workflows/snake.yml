@@ -24,6 +24,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: main
       - run: mkdir -p assets
 
       - name: Generate snake from the GitHub contribution calendar
@@ -96,5 +98,5 @@ jobs:
             exit 0
           fi
           git commit -m "Refresh profile images"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push origin HEAD:main
