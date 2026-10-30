@@ -2,33 +2,99 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # runs every 12 hours
+    - cron: "17 * * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/snake.yml
+      - scripts/profile_stats.py
+      - README.md
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
+      - run: mkdir -p assets
 
-      - name: Create assets directory
-        run: mkdir -p assets
-
-      - uses: Platane/snk@v3
-        id: snake-gif
+      - name: Generate snake from the GitHub contribution calendar
+        uses: Platane/snk@v3
         with:
-          github_user_name: Ninjaa-aa
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/github-snake.svg
             assets/github-snake-dark.svg?palette=github-dark
 
-      - name: Push to repository
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/
-          git commit -m "Generate snake animation"
-          git push origin main
+      - name: Check and generate contribution summary
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/profile_stats.py --self-test
+          python3 scripts/profile_stats.py
+
+      - name: Generate language statistics
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&title_color=00FFB3&text_color=FFFFFF&bg_color=0d1117
+          path: assets/languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: property-walay card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=property-walay&hide_border=true&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&bg_color=0d1117
+          path: assets/project-property-walay.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: fyphandbook-rag card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=fyphandbook-rag&hide_border=true&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&bg_color=0d1117
+          path: assets/project-fyphandbook-rag.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: desyst-website card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=desyst-website&hide_border=true&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&bg_color=0d1117
+          path: assets/project-desyst-website.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: urdu-av-dataset card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=urdu-av-dataset&hide_border=true&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&bg_color=0d1117
+          path: assets/project-urdu-av-dataset.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Publish updated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          if git diff --cached --quiet; then
+            echo "Profile images are already up to date."
+            exit 0
+          fi
+          git commit -m "Refresh profile images"
+          git pull --rebase origin main
+          git push origin HEAD:main
