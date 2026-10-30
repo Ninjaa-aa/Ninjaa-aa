@@ -70,7 +70,7 @@ def main():
         svg += [f'<text x="{x}" y="92" fill="#00ffb3" font-size="38" font-weight="bold">{value}</text>',
                 f'<text x="{x}" y="125" fill="#ffffff" font-size="17">{label}</text>']
     svg += [f'<text x="440" y="164" fill="#8b949e" font-size="13">{days[0]["date"]} to {days[-1]["date"]} · streaks in days</text>',
-            f'<text x="440" y="188" fill="#8b949e" font-size="12">Updated {updated} · refreshed hourly from GitHub</text>', '</g></svg>']
+            f'<text x="440" y="188" fill="#8b949e" font-size="12">Updated {updated} · refreshed every 15 minutes from GitHub</text>', '</g></svg>']
     Path("assets/contributions.svg").write_text("\n".join(svg), encoding="utf-8")
     print(f'Contribution calendar: {calendar["totalContributions"]} contributions; updated {updated}')
 
