@@ -25,7 +25,7 @@
 </h2>
 
 <div align="left">
-  <img align="right" width="38%" src="https://raw.githubusercontent.com/Ninjaa-aa/Ninjaa-aa/main/assets/coding.gif" alt="Coding Animation"/>
+  <img align="right" width="38%" src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" alt="Coding Animation"/>
 
   > *`Full-stack software engineer focused on backend systems and applied AI`*
 
@@ -67,7 +67,7 @@
     <td width="50%" valign="top">
       <h3 align="center">🏘️ Property Walay</h3>
       <div align="center">
-        <a href="https://github.com/Ninjaa-aa/property-walay"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ninjaa-aa&repo=property-walay&theme=dark&bg_color=000000&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&hide_border=true" alt="🏘️ Property Walay"/></a>
+        <a href="https://github.com/Ninjaa-aa/property-walay"><img src="./assets/project-property-walay.svg" alt="🏘️ Property Walay"/></a>
         <p>Team final-year project for Pakistani property search, with ingestion, analytics, and AI-assisted workflows.</p>
         <p><code>Next.js • FastAPI • Supabase • PostgreSQL</code></p>
         <a href="https://github.com/Ninjaa-aa/property-walay">View repository</a>
@@ -76,7 +76,7 @@
     <td width="50%" valign="top">
       <h3 align="center">📚 FYP Handbook RAG Assistant</h3>
       <div align="center">
-        <a href="https://github.com/Ninjaa-aa/fyphandbook-rag"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ninjaa-aa&repo=fyphandbook-rag&theme=dark&bg_color=000000&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&hide_border=true" alt="📚 FYP Handbook RAG Assistant"/></a>
+        <a href="https://github.com/Ninjaa-aa/fyphandbook-rag"><img src="./assets/project-fyphandbook-rag.svg" alt="📚 FYP Handbook RAG Assistant"/></a>
         <p>Handbook question answering with hybrid retrieval, reranking, page citations, and refusal handling.</p>
         <p><code>Python • ChromaDB • BM25 • Streamlit</code></p>
         <a href="https://github.com/Ninjaa-aa/fyphandbook-rag">View repository</a>
@@ -87,7 +87,7 @@
     <td width="50%" valign="top">
       <h3 align="center">💻 DeSyst Website</h3>
       <div align="center">
-        <a href="https://github.com/Ninjaa-aa/desyst-website"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ninjaa-aa&repo=desyst-website&theme=dark&bg_color=000000&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&hide_border=true" alt="💻 DeSyst Website"/></a>
+        <a href="https://github.com/Ninjaa-aa/desyst-website"><img src="./assets/project-desyst-website.svg" alt="💻 DeSyst Website"/></a>
         <p>Reusable React components, responsive layouts, and animated interactions.</p>
         <p><code>Next.js • TypeScript • Tailwind CSS • Framer Motion</code></p>
         <a href="https://github.com/Ninjaa-aa/desyst-website">View repository</a>
@@ -96,7 +96,7 @@
     <td width="50%" valign="top">
       <h3 align="center">🎙️ Urdu Audiovisual Speech</h3>
       <div align="center">
-        <a href="https://github.com/Ninjaa-aa/urdu-av-dataset"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ninjaa-aa&repo=urdu-av-dataset&theme=dark&bg_color=000000&title_color=00FFB3&icon_color=00FFB3&text_color=FFFFFF&hide_border=true" alt="🎙️ Urdu Audiovisual Speech"/></a>
+        <a href="https://github.com/Ninjaa-aa/urdu-av-dataset"><img src="./assets/project-urdu-av-dataset.svg" alt="🎙️ Urdu Audiovisual Speech"/></a>
         <p>Early research pipeline for speech alignment, filtering, and review, with documented pilot limitations.</p>
         <p><code>Python • Notebooks • Processing scripts • Tests</code></p>
         <a href="https://github.com/Ninjaa-aa/urdu-av-dataset">View repository</a>
@@ -107,23 +107,15 @@
 </div>
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Stats" width="25" height="25" /> 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Stats" width="25" height="25" />
   Achievement Matrix
 </h2>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ninjaa-aa&theme=black-ice&hide_border=true&stroke=0000&background=000000&ring=00FFB3&fire=00FFB3&currStreakLabel=00FFB3" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ninjaa-aa&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="Achievement Matrix"/>
-</div>
-
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ninjaa-aa&layout=compact&hide_border=true&title_color=00FFB3&text_color=FFFFFF&bg_color=000000" />
-  <img width="41%" height="195px" src="https://github-contributor-stats.vercel.app/api?username=Ninjaa-aa&limit=5&theme=dark&combine_all_yearly_contributions=true&hide_border=true&bg_color=000000&title_color=00FFB3" />
+  <img src="./assets/contributions.svg" alt="GitHub contribution total and streaks over the past year, refreshed every 15 minutes" width="100%" />
+  <br/><br/>
+  <img src="./assets/languages.svg" alt="Languages across public repositories" width="60%" />
+  <p><sub>Contribution activity covers the past year, including anonymized private contributions. Language statistics cover public repositories.</sub></p>
 </div>
 
 <h2 align="center">
