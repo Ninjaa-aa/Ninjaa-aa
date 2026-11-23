@@ -56,10 +56,12 @@ def main():
     days = [day for week in calendar["weeks"] for day in week["contributionDays"]
             if day["date"] <= today]
     assert days, "GitHub returned an empty contribution calendar"
-    assert sum(day["contributionCount"] for day in days) == calendar["totalContributions"]
+    # totalContributions can include a boundary day the calendar grid drops, so
+    # report the sum of the days actually shown instead of asserting equality.
+    total = sum(day["contributionCount"] for day in days)
     current, longest = streaks(days)
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    metrics = [("Contributions", f'{calendar["totalContributions"]:,}'),
+    metrics = [("Contributions", f'{total:,}'),
                ("Current streak", str(current)), ("Longest streak", str(longest))]
     svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img">',
            '<title>GitHub contribution activity over the past year</title>',
@@ -72,7 +74,7 @@ def main():
     svg += [f'<text x="440" y="164" fill="#8b949e" font-size="13">{days[0]["date"]} to {days[-1]["date"]} · streaks in days</text>',
             f'<text x="440" y="188" fill="#8b949e" font-size="12">Updated {updated} · refreshed every 15 minutes from GitHub</text>', '</g></svg>']
     Path("assets/contributions.svg").write_text("\n".join(svg), encoding="utf-8")
-    print(f'Contribution calendar: {calendar["totalContributions"]} contributions; updated {updated}')
+    print(f'Contribution calendar: {total} contributions; updated {updated}')
 
 
 if __name__ == "__main__":

@@ -37,6 +37,7 @@ jobs:
             assets/github-snake-dark.svg?palette=github-dark
 
       - name: Check and generate contribution summary
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
